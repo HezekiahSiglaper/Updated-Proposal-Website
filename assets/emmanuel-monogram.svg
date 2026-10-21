@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Emmanuel Ng initials placeholder">
+<defs><radialGradient id="g" cx="45%" cy="32%" r="75%"><stop stop-color="#203c66"/><stop offset=".7" stop-color="#101d38"/><stop offset="1" stop-color="#08111f"/></radialGradient><linearGradient id="edge" x2="1" y2="1"><stop stop-color="#d1efff"/><stop offset="1" stop-color="#5889bb"/></linearGradient></defs>
+<rect width="500" height="500" fill="url(#g)"/><g fill="#cce8ff" opacity=".65"><circle cx="115" cy="103" r="2"/><circle cx="360" cy="126" r="1.5"/><circle cx="417" cy="331" r="2"/><circle cx="93" cy="367" r="1"/><circle cx="293" cy="75" r="1"/></g>
+<circle cx="250" cy="250" r="187" fill="none" stroke="#6e9dca" stroke-opacity=".3" stroke-dasharray="3 13"/>
+<text x="250" y="278" text-anchor="middle" font-family="Georgia,serif" font-size="134" letter-spacing="-8" fill="url(#edge)">EN</text>
+<path d="M165 318h170" stroke="#75b7ec" stroke-width="1" opacity=".6"/><text x="250" y="350" text-anchor="middle" fill="#c6d9ed" font-size="12" letter-spacing="7" font-family="sans-serif">EMMANUEL NG</text>
+</svg>
