@@ -1,0 +1,15 @@
+
+.case-body{background:#05070f;color:#eef1f6;min-height:100vh}
+.case-header{display:flex;align-items:center;justify-content:space-between;padding:24px clamp(22px,6vw,80px);border-bottom:1px solid rgba(255,255,255,.1);font:10px var(--mono);letter-spacing:.16em;text-transform:uppercase}
+.case-header a:hover{color:#8fcaff}
+.case-hero{position:relative;min-height:55vh;max-width:1250px;margin:auto;padding:clamp(90px,14vw,155px) clamp(22px,6vw,80px) 85px}
+.case-eyebrow{font:10px var(--mono);letter-spacing:.26em;color:#8fcaff;text-transform:uppercase}
+.case-h1{font:400 clamp(70px,11vw,142px)/.94 var(--display);letter-spacing:-.025em;max-width:1100px;margin:24px 0 24px;text-wrap:balance}
+.case-intro{font:16px/1.8 var(--body);color:#aebed4;max-width:710px;margin:0}
+.case-orb{position:absolute;right:4%;top:13%;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#c4e6ff,#396a9e 37%,#091b3a 74%);box-shadow:0 0 100px #5182ad44;opacity:.26;pointer-events:none}
+.case-content{max-width:1120px;margin:0 auto 120px;padding:0 clamp(22px,6vw,80px);display:grid;grid-template-columns:230px 1fr;gap:11vw;border-top:1px solid rgba(143,202,255,.27)}
+.case-meta{padding-top:40px}.case-meta div{border-bottom:1px solid rgba(255,255,255,.1);padding:18px 0}.case-meta dt{font:9px var(--mono);letter-spacing:.16em;text-transform:uppercase;color:#7f91aa}.case-meta dd{font:13px/1.6 var(--body);margin:9px 0 0}
+.case-story{padding-top:43px}.case-block{margin-bottom:70px}.case-num{font:10px var(--mono);color:#8fcaff;letter-spacing:.17em}.case-block h2{font:400 clamp(35px,5vw,50px)/1.1 var(--display);margin:14px 0 18px}.case-block p,.case-block li{font:15px/1.9 var(--body);color:#aebed4}.case-block ul{padding-left:20px}
+.case-links{display:flex;gap:12px;flex-wrap:wrap}.case-link{display:inline-flex;align-items:center;border:1px solid #5981a5;padding:14px 18px;color:#c8e9ff;font:10px var(--mono);letter-spacing:.08em;text-transform:uppercase}.case-link:hover{background:#173455}
+.case-disclaimer{margin-top:45px;font:11px/1.7 var(--body);color:#728297}
+@media(max-width:750px){.case-header{font-size:8px;gap:12px}.case-hero{min-height:auto;padding-top:80px}.case-content{grid-template-columns:1fr;gap:0}.case-meta{display:grid;grid-template-columns:1fr 1fr;gap:0 15px}.case-story{padding-top:55px}.case-h1{font-size:clamp(56px,14vw,88px)}}
